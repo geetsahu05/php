@@ -2,8 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "/api/index.php",
-      "use": "@vercel/php@latest"
+      "src": "api/index.php",
+      "use": "@vercel/php"
     }
   ],
   "routes": [
@@ -13,3 +13,4 @@
     }
   ]
 }
+
